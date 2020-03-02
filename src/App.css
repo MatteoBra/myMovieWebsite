@@ -1,0 +1,66 @@
+
+*{
+    font-family:'Changa',monospace;
+}
+
+#movies img,
+#movie img {
+    width: 100%;
+}
+.brand-text {
+    font-size: 2rem;
+}
+.fixed-footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+}
+
+.brand-text{
+    color: #01d277;
+}
+
+.brand-text:hover{
+    color: #01d277;
+    text-decoration: none;
+}
+
+.card-body{
+    position: relative;
+    background-color: #343a40;
+}
+.card-title{
+    margin-bottom: 40px;
+}
+
+
+.btn-search{
+    background-color: #01d277;
+}
+.btn-search:hover{
+    color: white;
+}
+
+.jumbotron{
+    border: 8px whitesmoke outset;
+}
+#imdb-logo {
+    color: #f5de50;
+}
+@media (min-width: 960px) {
+#movies .col-md-3 .well {
+    height: 390px;
+}
+
+#movies .col-md-3 img {
+    height: 240px;
+}
+
+.btn-movie{
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+}
+}
